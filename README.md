@@ -1,3 +1,3 @@
-cd client
-cd server
-npm run dev
+<p>cd client</p>
+<p>cd server</p>
+<p>npm run dev</p>

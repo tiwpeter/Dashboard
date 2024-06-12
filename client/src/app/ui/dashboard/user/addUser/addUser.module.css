@@ -1,0 +1,52 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+
+.form input, .form textarea, .form select{
+    padding: 30px;
+    background-color: var(--bg);
+    color: var(--text);
+    border: 2px solid #2e374a;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.form input, .form select{
+    width: 45%;
+}
+
+.form textarea{
+    width: 100%;
+}
+
+.form button {
+    width: 100%;
+    padding: 30px;
+    background-color: teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.input[type="file"] {
+    width: 200px; /* กำหนดความกว้างของ input element */
+    height: 200px; /* กำหนดความสูงของ input element */
+    border: 2px dashed #ccc; /* กำหนดเส้นขอบแบบ dashed สีเทา */
+    border-radius: 5px; /* กำหนดรูปร่างของเส้นขอบให้เป็นรูปวงกลม */
+    padding: 20px; /* กำหนดระยะห่างภายในของ input element */
+    box-sizing: border-box; /* ให้ padding และ border ไม่นับเข้าไปในความกว้างและความสูง */
+    background-color: #f9f9f9; /* กำหนดสีพื้นหลังของ input element */
+    text-align: center; /* กำหนดให้ข้อความอยู่ตรงกลางของ input element */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นรูปแบบที่เหมาะสมเมื่อเม้าส์ชี้ไปที่ input element */
+  }
